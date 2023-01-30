@@ -19,21 +19,22 @@ function HomePage() {
             <div className="haeder-img-and-text">
                 uiui
             </div>
-            <div style={{ width: '50%', margin: '50px auto' }}>
+            <div style={{ width: '70%', margin: '50px auto' }}>
                 <Question title="קצת עליי" allText="סבסבס דגד" expanded={expandedAboutMe} handleChange={handleChangeAboutMe} />
             </div>
             <div style={{ width: '70%', margin: '50px auto' }}>
                 <Slideshow />
             </div>
-            <div style={{ width: '50%', margin: '50px auto' }}>
+            <div style={{ width: '70%', margin: '50px auto' }}>
                 <ControlledAccordions />
             </div>
             <div style={{ width: '90%', margin: '10px auto' }}>
                 <SlidesComments />
             </div>
-            <div style={{ width: '50%', margin: '50px auto' }}>
-                <Question title="קצת עליי" allText="סבסבס דגד" expanded={false} handleChange={handleChangeAboutMe} />
-                <Question title="קצת עליי" allText="סבסבס דגד" expanded={expandedAboutMe} handleChange={handleChangeAboutMe} />
+            <div style={{ width: '70%', margin: '50px auto' }}>
+                {/* <Question title="קצת עליי" allText="סבסבס דגד" expanded={false} handleChange={handleChangeAboutMe} />
+                <Question title="קצת עליי" allText="סבסבס דגד" expanded={expandedAboutMe} handleChange={handleChangeAboutMe} /> */}
+                <ControlledAccordions />
             </div>
         </div>
     );
