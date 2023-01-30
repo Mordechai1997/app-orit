@@ -1,7 +1,7 @@
 {
   "name": "orit-web",
   "version": "0.1.0",
-  "homepage": "https://mordechai1997.github.io/app-orit",
+  "homepage": "https://mordechai1997.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
