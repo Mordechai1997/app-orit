@@ -10,12 +10,8 @@ function App() {
 
   return (
     <div >
-      <HashRouter >
         <NavBar />
-        <Routes >
-          <Route path="/app-orit" element={<HomePage />} />
-        </Routes>
-      </HashRouter>
+        <HomePage />
     </div>
   );
 }
