@@ -127,6 +127,7 @@ header {
 
   .haeder-img-and-text {
     padding-bottom: 20px;
+    padding-top: 60px;
   }
 }
 
@@ -138,10 +139,13 @@ header {
   .question {
     width: 70%;
   }
+  .haeder-img-and-text {
+    padding-top: 80px;
+  }
 }
 
 .bold {
   font-weight: bold !important;
 }
-.title-and-icon{
-}
+
+.title-and-icon {}

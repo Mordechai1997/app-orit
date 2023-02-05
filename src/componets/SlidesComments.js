@@ -33,7 +33,7 @@ const slideImages = [
 export default function SlidesComments() {
   return (
     <div className="slide-container" >
-      <h3>קצת המלצות</h3>
+      <h3>המלצות</h3>
       <Slide >
         {slideImages.map((slideImage, index) => (
           <div key={index}>

@@ -15,7 +15,8 @@ export default function ControlledAccordions() {
   };
   const styleIcon = { width: '12px', height: '12px', marginLeft: '15px', fill: '#3FD2C7' };
   return (
-    <div>
+    <div style={{    boxShadow: '0px 2px 5px 0px rgb(60 64 67 / 16%)'}}>
+
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -60,7 +61,7 @@ export default function ControlledAccordions() {
             <div> <GradeIcon style={{ ...styleIcon }} /> גיל הרך והכנה לכיתה א'</div>
             <div> <GradeIcon style={{ ...styleIcon }} /> בעלי לקויות למידה</div>
             <div> <GradeIcon style={{ ...styleIcon }} /> בעלי הפרעות קשב וריכוז ADHD  ו ADD</div>
-            <div> <GradeIcon style={{ ...styleIcon }} /> ילדי חינוך מיוחד על הרצף</div>
+            <div> <GradeIcon style={{ ...styleIcon }} /> ילדי חינוך מיוחד על הספקטרום</div>
 
           </Typography>
         </AccordionDetails>

@@ -8,14 +8,14 @@ import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 
 export default function ControlledAccordionsFooter() {
   const [expanded, setExpanded] = React.useState('panel1  ');
-  const styleIcon = { width: '18px', height: '18px', marginLeft: '15px', fill: '#3FD2C7' };
+  const styleIcon = { width: '18px', height: '18px', fill: '#3FD2C7' };
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
 
   return (
-    <div>
+    <div style={{ boxShadow: '0px 2px 5px 0px rgb(60 64 67 / 16%)' }}>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -55,9 +55,9 @@ export default function ControlledAccordionsFooter() {
                 <span style={{ fontWeight: 'bold' }}> שלב העבודה העצמאית – </span>
                 בשלב זה התלמיד/ה הפנימו כבר את אופן הלמידה ויכולים לתפקד באופן עצמאי בעזרת כרטיסי הניווט שברשותם והכלים הנוספים שרכשו.
               </div>
-              <br/>
-              הוראה מתקנת אינה מרפאה את ליקוי הלמידה אלא מסייעת לילד להתקדם ולצמצם פערים ע"י שימוש בערוצים החזקים שלו או שימוש בדרכים חלופיות.
-              תהליך הלמידה המלווה בכרטיס ניווט אינו פותר את הלומד מלחשוב ולפעול, שכן עליו לאתר את הבעיה העומדת בפניו, להגדירה, לחפש את כרטיס הניווט המתאים לפתירתה – ולפתור אותה בהתאם.
+              <br />
+              הוראה מתקנת אינה מרפאה את ליקוי הלמידה אלא מסייעת לילד/ה להתקדם ולצמצם פערים ע"י שימוש בערוצים החזקים שלהם או שימוש בדרכים חלופיות.
+              תהליך הלמידה המלווה בכרטיס ניווט אינו פותר את הלומד/ת מלחשוב ולפעול, שכן עליהם לאתר את הבעיה העומדת בפניהם, להגדירה, לחפש את כרטיס הניווט המתאים לפתירתה – ולפתור אותה בהתאם.
             </div>
           </Typography>
         </AccordionDetails>

@@ -51,7 +51,7 @@ const slideImages = [
 
 export default function Slideshow () {
     return (
-      <div className="slide-container" >
+      <div className="slide-container" style={{    boxShadow: '0px 2px 5px 0px rgb(60 64 67 / 16%)'}}>
         <Slide >
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
