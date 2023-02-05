@@ -8,6 +8,7 @@ import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 
 export default function ControlledAccordionsFooter() {
   const [expanded, setExpanded] = React.useState('panel1  ');
+  const styleIcon = { width: '18px', height: '18px', marginLeft: '15px', fill: '#3FD2C7' };
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
@@ -31,15 +32,33 @@ export default function ControlledAccordionsFooter() {
         <AccordionDetails sx={{ textAlign: 'right' }}>
 
           <Typography component={'span'} variant={'body2'}>
-            <>
-              בתהליך הלמידה יש התייחסות לקצב הייחודי של הילד/ה, באופן המאפשר להם לרכוש מיומנויות בסיסיות אותן התקשה לרכוש במוסד הלימודים.
-              תהליך הלמידה מתחלק לשלושה שלבים
-              <div>שלב ההוראה המתווכת – בו מתווך המורה לתלמיד/ה את התהליכים תוך פיתוח קוגניציה ומטאקוגניציה.</div>
-              <div>	שלב הביניים (כרטיסי הניווט) – בשלב זה התלמיד/ה פועלים ע"י כרטיסי ניווט ובעזרתו של המתווף עד להפנמה מלאה של האסטרטגיה. דרך פעולה זו משמשת לילד/ה קביים המאפשרים להם להתנתק בהמשך מהמורה המתווך בהדרגה ולהפוך ללומדים עצמאיים.</div>
-              <div>שלב העבודה העצמאית – בשלב זה התלמיד/ה הפנימו כבר את אופן הלמידה ויכולים לתפקד באופן עצמאי בעזרת כרטיסי הניווט שברשותם והכלים הנוספים שרכשו.</div>
+            <div>
+              בתהליך הלמידה יש התייחסות לקצב הייחודי של הילד/ה, באופן המאפשר להם לרכוש מיומנויות בסיסיות אותן התקשו לרכוש במוסד הלימודים.
+              <br />
+              <br />
+              <span style={{ fontWeight: 'bold' }}>תהליך הלמידה מתחלק לשלושה שלבים</span>
+              <div className='title-and-icon'>
+                <ArrowLeftIcon style={{ ...styleIcon }} />
+                <span style={{ fontWeight: 'bold' }}> שלב ההוראה המתווכת – </span>
+                בו מתווך המורה לתלמיד/ה את התהליכים תוך פיתוח קוגניציה ומטאקוגניציה.
+              </div>
+              <div className='title-and-icon'>
+                <ArrowLeftIcon style={{ ...styleIcon }} />
+                <span style={{ fontWeight: 'bold' }}>
+                  שלב הביניים (כרטיסי הניווט) –
+                </span>
+                בשלב זה התלמיד/ה פועלים ע"י כרטיסי ניווט ובעזרתו של המתווך עד
+                להפנמה מלאה של האסטרטגיה. דרך פעולה זו משמשת לילד/ה קביים המאפשרים להם להתנתק בהמשך מהמורה המתווך בהדרגה ולהפוך ללומדים עצמאיים.
+              </div>
+              <div className='title-and-icon'>
+                <ArrowLeftIcon style={{ ...styleIcon }} />
+                <span style={{ fontWeight: 'bold' }}> שלב העבודה העצמאית – </span>
+                בשלב זה התלמיד/ה הפנימו כבר את אופן הלמידה ויכולים לתפקד באופן עצמאי בעזרת כרטיסי הניווט שברשותם והכלים הנוספים שרכשו.
+              </div>
+              <br/>
               הוראה מתקנת אינה מרפאה את ליקוי הלמידה אלא מסייעת לילד להתקדם ולצמצם פערים ע"י שימוש בערוצים החזקים שלו או שימוש בדרכים חלופיות.
               תהליך הלמידה המלווה בכרטיס ניווט אינו פותר את הלומד מלחשוב ולפעול, שכן עליו לאתר את הבעיה העומדת בפניו, להגדירה, לחפש את כרטיס הניווט המתאים לפתירתה – ולפתור אותה בהתאם.
-            </>
+            </div>
           </Typography>
         </AccordionDetails>
       </Accordion>

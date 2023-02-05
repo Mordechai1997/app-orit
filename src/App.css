@@ -65,7 +65,8 @@ header {
 }
 
 .title-accordion,
-.css-i4bv87-MuiSvgIcon-root,.css-vubbuv {
+.css-i4bv87-MuiSvgIcon-root,
+.css-vubbuv {
   font-weight: bold !important;
   color: #fff;
 
@@ -94,41 +95,53 @@ header {
   background-image: url('./images/chailde2.jpeg');
 
 }
-.slide-4{
+
+.slide-4 {
   background-image: url('./images/chailde3.jpeg');
 
 }
-.slide-5{
+
+.slide-5 {
   background-image: url('./images/chailde4.jpeg');
 
 }
-.slide-6{
+
+.slide-6 {
   background-image: url('./images/chailde5.jpeg');
 
 }
-.slide-7{
+
+.slide-7 {
   background-image: url('./images/chailde6.jpeg');
 
 }
+
 @media only screen and (max-width: 600px) {
-  .slide-show{
+  .slide-show {
     width: 90%;
   }
-  .question{
-    width: 95%;
+
+  .question {
+    width: 75%;
   }
-  .haeder-img-and-text{
+
+  .haeder-img-and-text {
     padding-bottom: 20px;
   }
 }
+
 @media only screen and (min-width: 600px) {
-  .slide-show{
+  .slide-show {
     width: 50%;
   }
-  .question{
+
+  .question {
     width: 70%;
   }
 }
-.bold{
-  font-weight: bold;
+
+.bold {
+  font-weight: bold !important;
+}
+.title-and-icon{
 }

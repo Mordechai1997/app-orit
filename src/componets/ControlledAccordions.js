@@ -13,7 +13,7 @@ export default function ControlledAccordions() {
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
-  const styleIcon = { width: '12px', height: '12px', marginLeft: '15px', fill: '#3FD2C7' }
+  const styleIcon = { width: '12px', height: '12px', marginLeft: '15px', fill: '#3FD2C7' };
   return (
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -36,7 +36,7 @@ export default function ControlledAccordions() {
             <div><FavoriteIcon style={{ ...styleIcon }} fontSize='xx-small' /> כאשר יש תחושה שלילד/ה פונטציאל גבוה ממה שהם מצליחים להביא לידי ביטוי.</div>
             <div><FavoriteIcon style={{ ...styleIcon }} fontSize='xx-small' />  כאשר הילד/ה מתקשים בהכנת שיעורי הבית באופן עצמאי.</div>
             <div><FavoriteIcon style={{ ...styleIcon }} fontSize='xx-small' /> כאשר לילד/ה קשיים או פערים לימודיים בקריאה, הבנת הניקרא, חשיבה מתמטית וכו'.</div>
-            <div><FavoriteIcon style={{ ...styleIcon }} fontSize='xx-small' />  כאשר לילד מוטיבציה לימודית נמוכה.</div>
+            <div><FavoriteIcon style={{ ...styleIcon }} fontSize='xx-small' />  כאשר לילד/ה מוטיבציה לימודית נמוכה.</div>
             <div><FavoriteIcon style={{ ...styleIcon }} fontSize='xx-small' /> בעקבות המלצה של אבחון דידקתי/ פסיכו דידקתי.</div>
 
           </Typography>

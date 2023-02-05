@@ -17,9 +17,9 @@ function HomePage() {
     const allDes = () => {
         return (<div className="bold">
             שמי אורית, בעלת תואר Be.d 
-            בחינוך לגיל ערך והתמחות בחינוך מיוחד
+            בחינוך לגיל הרך והתמחות בחינוך מיוחד.
             <br />
-            בעלת נסיון של כ10 שנים במערכת החינוך הפורמאלית והלא פורמלית גם כן.
+            בעלת נסיון של כעשר שנים במערכת החינוך הפורמאלית והלא פורמלית גם כן.
             <br />
             עם אהבה גדולה לילדים, לחינוך ולתהליכי למידה.
         </div >)
@@ -33,10 +33,8 @@ function HomePage() {
                         fontSize: 'xxx-large',
                         margin: '0 0 20px 0'
                     }}> הוראה מתקנת</h2>
-                    <div className="row-title-header bold"> הינה הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד</div>
-                    <div className="row-title-header bold">  ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים,</div>
-                    <div className="row-title-header bold"> מטרת הוראה זו היא לקדם ולשפר את תפקודו של התלמיד והשיגיו</div>
-                    <div className="row-title-header bold">   בהלימה לתכנית הלימוד הבית ספרית, תוך הקניית חווית למידה חיובית.</div>
+                    <div className="row-title-header bold"> הינה הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים.</div>
+                    <div className="row-title-header bold"> מטרת הוראה זו היא לקדם ולשפר את תפקודו של התלמיד והשיגיו,  בהלימה לתכנית הלימוד הבית ספרית, תוך הקניית חווית למידה חיובית.</div>
                 </div>
             </div>
             <div className="question" style={{ margin: '50px auto' }}>
