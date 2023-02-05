@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/app-orit/static/css/main.8cac0c8f.css",
-    "main.js": "/app-orit/static/js/main.491ebcea.js",
+    "main.css": "/app-orit/static/css/main.eeecd228.css",
+    "main.js": "/app-orit/static/js/main.75a0c055.js",
     "static/js/787.8489287d.chunk.js": "/app-orit/static/js/787.8489287d.chunk.js",
+    "static/media/chailde5.jpeg": "/app-orit/static/media/chailde5.048623aa2eafe9f2e695.jpeg",
+    "static/media/chailde3.jpeg": "/app-orit/static/media/chailde3.8e057cc9565db8d30504.jpeg",
+    "static/media/chailde4.jpeg": "/app-orit/static/media/chailde4.7d43f495a41800e9035e.jpeg",
     "static/media/img-header.jpeg": "/app-orit/static/media/img-header.c0ba5aea0c10d5f977d5.jpeg",
     "static/media/chailde.jpeg": "/app-orit/static/media/chailde.c392f43168f249e3be3a.jpeg",
     "static/media/chailde2.jpeg": "/app-orit/static/media/chailde2.dbea6c594b0d0c797bf4.jpeg",
+    "static/media/chailde6.jpeg": "/app-orit/static/media/chailde6.dbea6c594b0d0c797bf4.jpeg",
     "static/media/chailde1.jpeg": "/app-orit/static/media/chailde1.bdf23dd02777b89630ff.jpeg",
     "index.html": "/app-orit/index.html",
-    "main.8cac0c8f.css.map": "/app-orit/static/css/main.8cac0c8f.css.map",
-    "main.491ebcea.js.map": "/app-orit/static/js/main.491ebcea.js.map",
+    "main.eeecd228.css.map": "/app-orit/static/css/main.eeecd228.css.map",
+    "main.75a0c055.js.map": "/app-orit/static/js/main.75a0c055.js.map",
     "787.8489287d.chunk.js.map": "/app-orit/static/js/787.8489287d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cac0c8f.css",
-    "static/js/main.491ebcea.js"
+    "static/css/main.eeecd228.css",
+    "static/js/main.75a0c055.js"
   ]
 }
