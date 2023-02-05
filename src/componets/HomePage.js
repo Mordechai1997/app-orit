@@ -15,10 +15,13 @@ function HomePage() {
     };
 
     const allDes = () => {
-        return (<div>
-            שמי אורית, בעלת תואר
-            בחינוך לגיל הרך והתמחות בחינוך המיוחד.
+        return (<div className="bold">
+            שמי אורית, בעלת תואר Be.d 
+            בחינוך לגיל ערך והתמחות בחינוך מיוחד
+            <br />
+
             בעלת נסיון של כ10 שנים במערכת החינוך הפורמאלית והלא פורמלית גם כן.
+            <br />
             עם אהבה גדולה לילדים, לחינוך ולתהליכי למידה.
         </div >)
     }
@@ -31,16 +34,16 @@ function HomePage() {
                         fontSize: 'xxx-large',
                         margin: '0 0 20px 0'
                     }}> הוראה מתקנת</h2>
-                    <div className="row-title-header"> הינה הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד</div>
-                    <div className="row-title-header">  ,ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים</div>
-                    <div className="row-title-header"> .מטרת הוראה זו היא לקדם ולשפר את תפקודו של התלמיד והשיגיו</div>
-                    <div className="row-title-header">   .בהלימה לתכנית הלימוד הבית ספרית, תוך הקניית חווית למידה חיובית</div>
+                    <div className="row-title-header bold"> הינה הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד</div>
+                    <div className="row-title-header bold">  ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים,</div>
+                    <div className="row-title-header bold"> מטרת הוראה זו היא לקדם ולשפר את תפקודו של התלמיד והשיגיו</div>
+                    <div className="row-title-header bold">   בהלימה לתכנית הלימוד הבית ספרית, תוך הקניית חווית למידה חיובית.</div>
                 </div>
             </div>
             <div style={{ width: '70%', margin: '50px auto' }}>
                 <Question title="קצת עליי" allText={allDes()} expanded={expandedAboutMe} handleChange={handleChangeAboutMe} />
             </div>
-            <div className='slide-show' style={{margin: '50px auto' }}>
+            <div className='slide-show' style={{ margin: '50px auto' }}>
                 <Slideshow />
             </div>
             <div style={{ width: '70%', margin: '50px auto' }}>

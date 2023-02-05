@@ -4,6 +4,8 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import GradeIcon from '@mui/icons-material/Grade';
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState('panel1  ');
@@ -11,7 +13,7 @@ export default function ControlledAccordions() {
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
-
+  const styleIcon = { width: '12px', height: '12px', marginLeft: '15px', fill: '#3FD2C7' }
   return (
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -20,22 +22,22 @@ export default function ControlledAccordions() {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
           className="summary-header"
-          sx={{ background: '#00458B',     borderRadius: '5px' }}
+          sx={{ background: '#00458B', borderRadius: '5px' }}
 
         >
           <Typography className='title-accordion' sx={{ width: '100%' }}>
-            ?מתי כדאי לפנות להוראה מתקנת
+            מתי כדאי לפנות להוראה מתקנת?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ textAlign: 'right' }}>
 
           <Typography>
 
-            <div> .כאשר יש תחושה שלילד/ה פונטציאל גבוה ממה שהם מצליחים להביא לידי ביטוי</div>
-            <div>  .כאשר הילד/ה מתקשים בהכנת שיעורי הבית באופן עצמאי</div>
-            <div> .'כאשר לילד/ה קשיים או פערים לימודיים בקריאה, הבנת הניקרא, חשיבה מתמטית וכו</div>
-            <div>  .כאשר לילד מוטיבציה לימודית נמוכה</div>
-            <div> .בעקבות המלצה של אבחון דידקתי/ פסיכו דידקתי</div>
+            <div><FavoriteIcon style={{ ...styleIcon }} fontSize='xx-small' /> כאשר יש תחושה שלילד/ה פונטציאל גבוה ממה שהם מצליחים להביא לידי ביטוי.</div>
+            <div><FavoriteIcon style={{ ...styleIcon }} fontSize='xx-small' />  כאשר הילד/ה מתקשים בהכנת שיעורי הבית באופן עצמאי.</div>
+            <div><FavoriteIcon style={{ ...styleIcon }} fontSize='xx-small' /> כאשר לילד/ה קשיים או פערים לימודיים בקריאה, הבנת הניקרא, חשיבה מתמטית וכו'.</div>
+            <div><FavoriteIcon style={{ ...styleIcon }} fontSize='xx-small' />  כאשר לילד מוטיבציה לימודית נמוכה.</div>
+            <div><FavoriteIcon style={{ ...styleIcon }} fontSize='xx-small' /> בעקבות המלצה של אבחון דידקתי/ פסיכו דידקתי.</div>
 
           </Typography>
         </AccordionDetails>
@@ -46,7 +48,7 @@ export default function ControlledAccordions() {
           aria-controls="panel2bh-content"
           id="panel2bh-header"
           className="summary-header"
-          sx={{ background: '#00458B',     borderRadius: '5px' }}
+          sx={{ background: '#00458B', borderRadius: '5px' }}
 
 
         >
@@ -55,10 +57,10 @@ export default function ControlledAccordions() {
         <AccordionDetails sx={{ textAlign: 'right' }}>
 
           <Typography>
-            <div>'גיל הרך והכנה לכיתה א</div>
-            <div>בעלי לקויות למידה</div>
-            <div>בעלי הפרעות קשב וריכוז ADHD  ו ADD</div>
-            <div>ילדי חינוך מיוחד על הרצף</div>
+            <div> <GradeIcon style={{ ...styleIcon }} /> גיל הרך והכנה לכיתה א'</div>
+            <div> <GradeIcon style={{ ...styleIcon }} /> בעלי לקויות למידה</div>
+            <div> <GradeIcon style={{ ...styleIcon }} /> בעלי הפרעות קשב וריכוז ADHD  ו ADD</div>
+            <div> <GradeIcon style={{ ...styleIcon }} /> ילדי חינוך מיוחד על הרצף</div>
 
           </Typography>
         </AccordionDetails>
