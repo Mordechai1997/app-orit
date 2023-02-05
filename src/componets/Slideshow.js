@@ -13,20 +13,23 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
-  height: '400px'
+  height: '400px',
+  borderRadius:'10px',
+  margin: '0 5px'
+
 }
 const slideImages = [
   {
-    url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
-    caption: 'Slide 1'
+    url: '../img-header.jpeg',
+    caption: 'slide-1'
   },
   {
-    url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
-    caption: 'Slide 2'
+    url: '../chailde1.jpeg',
+    caption: 'slide-2'
   },
   {
-    url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
-    caption: 'Slide 3'
+    url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
+    caption: 'slide-3'
   },
 ];
 
@@ -36,7 +39,8 @@ export default function Slideshow () {
         <Slide >
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
+              <div className={slideImage.caption} style={{ ...divStyle}}>
+              {/* <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}> */}
                 {/* <span style={spanStyle}>{slideImage.caption}</span> */}
               </div>
             </div>

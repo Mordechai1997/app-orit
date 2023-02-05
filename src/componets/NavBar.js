@@ -24,11 +24,11 @@ function NavBar() {
 
 
     return (
-        <AppBar position="static" className='nav-bar' sx={{ backgroundColor: '#9DC88D' }}>
+        <AppBar position="static" className='nav-bar' sx={{ backgroundColor: '#00458B' }}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Typography
-                        variant="div"
+                        component={'span'} variant={'body2'}
                         noWrap
                         className='title-nav-bar'
                         sx={{
@@ -37,7 +37,6 @@ function NavBar() {
                             fontFamily: 'monospace',
                             fontWeight: 700,
                             letterSpacing: '.3rem',
-                            color: 'inherit',
                             textDecoration: 'none',
                         }}
                     >
@@ -49,17 +48,17 @@ function NavBar() {
                                 alignItems: 'center',
                                 textAlign: 'left'
                             }}>
-                              <Box className="contact-us" sx={{ flex: '1' }}>
-                              <a  target="_blank" href="tel:0525466443"> <PhoneIcon sx={{ml: 2}} /></a>
-                              <a  target="_blank" href = "mailto:abc@example.com"> <EmailIcon sx={{ml: 2}}/></a>
-                              <a  target="_blank" href="https://api.whatsapp.com/send?phone=972525466443"> <WhatsAppIcon sx={{ml: 2}}/></a>
+                            <Box className="contact-us" sx={{ flex: '1' }}>
+                                <a target="_blank" href="tel:0525466443"> <PhoneIcon sx={{ ml: 2 }} /></a>
+                                <a target="_blank" href="mailto:abc@example.com"> <EmailIcon sx={{ ml: 2 }} /></a>
+                                <a target="_blank" href="https://api.whatsapp.com/send?phone=972525466443"> <WhatsAppIcon sx={{ ml: 2 }} /></a>
                             </Box>
                         </Box>
                     </Typography>
 
 
                     <Typography
-                        variant="div"
+                        component={'span'} variant={'body2'}
                         noWrap
                         className='title-nav-bar'
                         sx={{
@@ -80,15 +79,15 @@ function NavBar() {
                                 width: '100vw',
                                 display: 'flex',
                                 alignItems: 'center',
-                                justifyContent:'space-between'
+                                justifyContent: 'space-between'
 
                             }}>
                             <Box className="contact-us" >
-                            <Box className="contact-us" sx={{ flex: '1' }}>
-                              <a  target="_blank" href="tel:0525466443"> <PhoneIcon sx={{ml: 2}} /></a>
-                              <a  target="_blank" href = "mailto:abc@example.com"> <EmailIcon sx={{ml: 2}}/></a>
-                              <a  target="_blank" href="https://api.whatsapp.com/send?phone=972525466443"> <WhatsAppIcon sx={{ml: 2}}/></a>
-                            </Box>
+                                <Box className="contact-us" sx={{ flex: '1' }}>
+                                    <a target="_blank" href="tel:0525466443"> <PhoneIcon sx={{ ml: 2 }} /></a>
+                                    <a target="_blank" href="mailto:abc@example.com"> <EmailIcon sx={{ ml: 2 }} /></a>
+                                    <a target="_blank" href="https://api.whatsapp.com/send?phone=972525466443"> <WhatsAppIcon sx={{ ml: 2 }} /></a>
+                                </Box>
 
                             </Box>
                         </Box>

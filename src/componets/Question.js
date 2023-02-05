@@ -14,13 +14,16 @@ export default function Question({title, allText, expanded, handleChange}) {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
+          sx={{ background: '#00458B',     borderRadius: '5px' }}
+          className="summary-header"
+
         >
-          <Typography className='title-accordion' sx={{ width:'100%'}}>
+          <Typography  component={'span'} variant={'body2'} className='title-accordion' sx={{ width:'100%'}}>
             {title}
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ textAlign:'right'}}>
-          <Typography>
+          <Typography  component={'span'} variant={'body2'}>
             {allText}
           </Typography>
         </AccordionDetails>

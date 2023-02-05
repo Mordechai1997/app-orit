@@ -19,17 +19,24 @@ export default function ControlledAccordions() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
+          className="summary-header"
+          sx={{ background: '#00458B',     borderRadius: '5px' }}
+
         >
-          <Typography className='title-accordion' sx={{ width:'100%'}}>
-            General settings
+          <Typography className='title-accordion' sx={{ width: '100%' }}>
+            ?מתי כדאי לפנות להוראה מתקנת
           </Typography>
         </AccordionSummary>
-        <AccordionDetails sx={{ textAlign:'right'}}>
+        <AccordionDetails sx={{ textAlign: 'right' }}>
 
           <Typography>
-            
-            Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-            Aliquam eget maximus est, id dignissim quam.
+
+            <div> .כאשר יש תחושה שלילד/ה פונטציאל גבוה ממה שהם מצליחים להביא לידי ביטוי</div>
+            <div>  .כאשר הילד/ה מתקשים בהכנת שיעורי הבית באופן עצמאי</div>
+            <div> .'כאשר לילד/ה קשיים או פערים לימודיים בקריאה, הבנת הניקרא, חשיבה מתמטית וכו</div>
+            <div>  .כאשר לילד מוטיבציה לימודית נמוכה</div>
+            <div> .בעקבות המלצה של אבחון דידקתי/ פסיכו דידקתי</div>
+
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -38,15 +45,21 @@ export default function ControlledAccordions() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
           id="panel2bh-header"
+          className="summary-header"
+          sx={{ background: '#00458B',     borderRadius: '5px' }}
+
+
         >
-          <Typography className='title-accordion' sx={{ width:'100%'}}>Users</Typography>
+          <Typography className='title-accordion' sx={{ width: '100%' }}>תחומי ההתמחות שלי</Typography>
         </AccordionSummary>
-        <AccordionDetails sx={{ textAlign:'right'}}>
+        <AccordionDetails sx={{ textAlign: 'right' }}>
 
           <Typography>
-            Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus,
-            varius pulvinar diam eros in elit. Pellentesque convallis laoreet
-            laoreet.
+            <div>'גיל הרך והכנה לכיתה א</div>
+            <div>בעלי לקויות למידה</div>
+            <div>בעלי הפרעות קשב וריכוז ADHD  ו ADD</div>
+            <div>ילדי חינוך מיוחד על הרצף</div>
+
           </Typography>
         </AccordionDetails>
       </Accordion>
