@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/app-orit/static/css/main.b813b4be.css",
+    "main.css": "/app-orit/static/css/main.8cac0c8f.css",
     "main.js": "/app-orit/static/js/main.491ebcea.js",
     "static/js/787.8489287d.chunk.js": "/app-orit/static/js/787.8489287d.chunk.js",
     "static/media/img-header.jpeg": "/app-orit/static/media/img-header.c0ba5aea0c10d5f977d5.jpeg",
@@ -8,12 +8,12 @@
     "static/media/chailde2.jpeg": "/app-orit/static/media/chailde2.dbea6c594b0d0c797bf4.jpeg",
     "static/media/chailde1.jpeg": "/app-orit/static/media/chailde1.bdf23dd02777b89630ff.jpeg",
     "index.html": "/app-orit/index.html",
-    "main.b813b4be.css.map": "/app-orit/static/css/main.b813b4be.css.map",
+    "main.8cac0c8f.css.map": "/app-orit/static/css/main.8cac0c8f.css.map",
     "main.491ebcea.js.map": "/app-orit/static/js/main.491ebcea.js.map",
     "787.8489287d.chunk.js.map": "/app-orit/static/js/787.8489287d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b813b4be.css",
+    "static/css/main.8cac0c8f.css",
     "static/js/main.491ebcea.js"
   ]
 }
