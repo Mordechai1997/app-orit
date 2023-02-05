@@ -19,7 +19,6 @@ function HomePage() {
             שמי אורית, בעלת תואר Be.d 
             בחינוך לגיל ערך והתמחות בחינוך מיוחד
             <br />
-
             בעלת נסיון של כ10 שנים במערכת החינוך הפורמאלית והלא פורמלית גם כן.
             <br />
             עם אהבה גדולה לילדים, לחינוך ולתהליכי למידה.
@@ -40,19 +39,19 @@ function HomePage() {
                     <div className="row-title-header bold">   בהלימה לתכנית הלימוד הבית ספרית, תוך הקניית חווית למידה חיובית.</div>
                 </div>
             </div>
-            <div style={{ width: '70%', margin: '50px auto' }}>
+            <div className="question" style={{ margin: '50px auto' }}>
                 <Question title="קצת עליי" allText={allDes()} expanded={expandedAboutMe} handleChange={handleChangeAboutMe} />
             </div>
             <div className='slide-show' style={{ margin: '50px auto' }}>
                 <Slideshow />
             </div>
-            <div style={{ width: '70%', margin: '50px auto' }}>
+            <div  className="question" style={{ margin: '50px auto' }}>
                 <ControlledAccordions />
             </div>
-            <div style={{ width: '90%', margin: '10px auto' }}>
+            <div  style={{ width: '90%', margin: '10px auto' }}>
                 <SlidesComments />
             </div>
-            <div style={{ width: '70%', margin: '50px auto' }}>
+            <div className="question" style={{ margin: '50px auto' }}>
                 <ControlledAccordionsFooter />
             </div>
         </div >

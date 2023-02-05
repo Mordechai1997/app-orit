@@ -114,10 +114,19 @@ header {
   .slide-show{
     width: 90%;
   }
+  .question{
+    width: 95%;
+  }
+  .haeder-img-and-text{
+    padding-bottom: 20px;
+  }
 }
 @media only screen and (min-width: 600px) {
   .slide-show{
     width: 50%;
+  }
+  .question{
+    width: 70%;
   }
 }
 .bold{
