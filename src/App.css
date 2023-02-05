@@ -64,7 +64,7 @@ header {
 }
 
 .title-accordion,
-.css-i4bv87-MuiSvgIcon-root {
+.css-i4bv87-MuiSvgIcon-root,.css-vubbuv {
   font-weight: bold !important;
   color: #fff;
 
@@ -91,6 +91,22 @@ header {
 
 .slide-3 {
   background-image: url('./images/chailde2.jpeg');
+
+}
+.slide-4{
+  background-image: url('./images/chailde3.jpeg');
+
+}
+.slide-5{
+  background-image: url('./images/chailde4.jpeg');
+
+}
+.slide-6{
+  background-image: url('./images/chailde5.jpeg');
+
+}
+.slide-7{
+  background-image: url('./images/chailde6.jpeg');
 
 }
 @media only screen and (max-width: 600px) {

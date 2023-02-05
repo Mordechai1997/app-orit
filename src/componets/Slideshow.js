@@ -31,6 +31,22 @@ const slideImages = [
     url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
     caption: 'slide-3'
   },
+  {
+    url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
+    caption: 'slide-4'
+  },
+  {
+    url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
+    caption: 'slide-5'
+  },
+  {
+    url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
+    caption: 'slide-6'
+  },
+  {
+    url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
+    caption: 'slide-7'
+  },
 ];
 
 export default function Slideshow () {
