@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/app-orit/static/css/main.4b1b0949.css",
-    "main.js": "/app-orit/static/js/main.a6d3fb31.js",
+    "main.css": "/app-orit/static/css/main.1d21a792.css",
+    "main.js": "/app-orit/static/js/main.90f5c1d9.js",
     "static/js/787.8489287d.chunk.js": "/app-orit/static/js/787.8489287d.chunk.js",
     "static/media/chailde5.jpeg": "/app-orit/static/media/chailde5.048623aa2eafe9f2e695.jpeg",
     "static/media/chailde3.jpeg": "/app-orit/static/media/chailde3.8e057cc9565db8d30504.jpeg",
@@ -11,13 +11,16 @@
     "static/media/chailde2.jpeg": "/app-orit/static/media/chailde2.dbea6c594b0d0c797bf4.jpeg",
     "static/media/chailde6.jpeg": "/app-orit/static/media/chailde6.dbea6c594b0d0c797bf4.jpeg",
     "static/media/chailde1.jpeg": "/app-orit/static/media/chailde1.bdf23dd02777b89630ff.jpeg",
+    "static/media/recommend3.jpeg": "/app-orit/static/media/recommend3.7b41757e23140976bd81.jpeg",
+    "static/media/recommend2.jpeg": "/app-orit/static/media/recommend2.cf94e51479bf828a5908.jpeg",
+    "static/media/recommend1.jpeg": "/app-orit/static/media/recommend1.b921964e88c23f9fc91a.jpeg",
     "index.html": "/app-orit/index.html",
-    "main.4b1b0949.css.map": "/app-orit/static/css/main.4b1b0949.css.map",
-    "main.a6d3fb31.js.map": "/app-orit/static/js/main.a6d3fb31.js.map",
+    "main.1d21a792.css.map": "/app-orit/static/css/main.1d21a792.css.map",
+    "main.90f5c1d9.js.map": "/app-orit/static/js/main.90f5c1d9.js.map",
     "787.8489287d.chunk.js.map": "/app-orit/static/js/787.8489287d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b1b0949.css",
-    "static/js/main.a6d3fb31.js"
+    "static/css/main.1d21a792.css",
+    "static/js/main.90f5c1d9.js"
   ]
 }
