@@ -2,9 +2,12 @@ import { display } from "@mui/system";
 import React from "react";
 import ControlledAccordions from "./ControlledAccordions";
 import ControlledAccordionsFooter from "./ControlledAccordionsFooter";
+import ControlledAccordionsHeader from "./ControlledAccordionsHeader";
 import Question from "./Question";
 import SlidesComments from "./SlidesComments";
-import Slideshow from './Slideshow'
+import Slideshow from './Slideshow';
+import ScrollAnimation from 'react-animate-on-scroll';
+import ParticleAnimation from 'react-particle-animation'
 function HomePage() {
 
     const [expandedAboutMe, setExpandedAboutMe] = React.useState(true);
@@ -16,7 +19,7 @@ function HomePage() {
 
     const allDes = () => {
         return (<div className="bold">
-            שמי אורית, בעלת תואר Be.d 
+            שמי אורית, בעלת תואר Be.d
             בחינוך לגיל הרך והתמחות בחינוך מיוחד.
             <br />
             בעלת נסיון של כעשר שנים במערכת החינוך הפורמאלית והלא פורמלית גם כן.
@@ -27,30 +30,30 @@ function HomePage() {
     return (
         <div >
             <div className="haeder-img-and-text">
-                <div style={{ padding: '20px' }}>
+                <div style={{ padding: '20px' }} className="text-header-page">
                     <h2 style={{
                         textAlign: 'right',
-                        fontSize: 'xxx-large',
                         margin: '0 0 20px 0'
-                    }}> הוראה מתקנת</h2>
-                    <div className="row-title-header bold"> הינה הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים.</div>
-                    <div className="row-title-header bold"> מטרת הוראה זו היא לקדם ולשפר את תפקודו של התלמיד והשיגיו,  בהלימה לתכנית הלימוד הבית ספרית, תוך הקניית חווית למידה חיובית.</div>
+                    }}
+                        className="title-header-page"> הוראה מתקנת</h2>
+                    <ScrollAnimation  animateIn='bounceInRight'>
+                        <div className="row-title-header bold">  הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים.</div>
+                        <div className="row-title-header bold"> מטרת הוראה זו היא לקדם ולשפר את תפקודו של התלמיד והשיגיו,  בהלימה לתכנית הלימוד הבית ספרית, תוך הקניית חווית למידה חיובית.</div>
+                    </ScrollAnimation>
                 </div>
             </div>
             <div className="question" style={{ margin: '50px auto' }}>
-                <Question title="קצת עליי" allText={allDes()} expanded={expandedAboutMe} handleChange={handleChangeAboutMe} />
+                <ControlledAccordionsHeader />
+                {/* <Question title="קצת עליי" allText={allDes()} expanded={expandedAboutMe} handleChange={handleChangeAboutMe} /> */}
             </div>
             <div className='slide-show' style={{ margin: '50px auto' }}>
                 <Slideshow />
             </div>
-            <div  className="question" style={{ margin: '50px auto' }}>
+            <div className="question" style={{ margin: '50px auto' }}>
                 <ControlledAccordions />
             </div>
-            <div  style={{ width: '90%', margin: '10px auto' }}>
+            <div style={{ width: '90%', margin: '10px auto' }}>
                 <SlidesComments />
-            </div>
-            <div className="question" style={{ margin: '50px auto' }}>
-                <ControlledAccordionsFooter />
             </div>
         </div >
     );

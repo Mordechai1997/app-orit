@@ -6,6 +6,8 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import GradeIcon from '@mui/icons-material/Grade';
+import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState('panel1  ');
@@ -15,7 +17,7 @@ export default function ControlledAccordions() {
   };
   const styleIcon = { width: '12px', height: '12px', marginLeft: '15px', fill: '#3FD2C7' };
   return (
-    <div style={{    boxShadow: '0px 2px 5px 0px rgb(60 64 67 / 16%)'}}>
+    <div style={{ boxShadow: '0px 2px 5px 0px rgb(60 64 67 / 16%)' }}>
 
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
@@ -46,26 +48,51 @@ export default function ControlledAccordions() {
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2bh-content"
-          id="panel2bh-header"
+          aria-controls="panel1bh-content"
+          id="panel1bh-header"
           className="summary-header"
           sx={{ background: '#00458B', borderRadius: '5px' }}
 
-
         >
-          <Typography className='title-accordion' sx={{ width: '100%' }}>תחומי ההתמחות שלי</Typography>
+          <ScrollAnimation animateIn='flipInX' duration={2} 
+            initiallyVisible={true} style={{margin:'auto'}}>
+            <Typography className='title-accordion' sx={{ width: '100%' }}>
+              מהו תהליך הלמידה?
+            </Typography>
+          </ScrollAnimation>
         </AccordionSummary>
         <AccordionDetails sx={{ textAlign: 'right' }}>
 
-          <Typography>
-            <div> <GradeIcon style={{ ...styleIcon }} /> גיל הרך והכנה לכיתה א'</div>
-            <div> <GradeIcon style={{ ...styleIcon }} /> בעלי לקויות למידה</div>
-            <div> <GradeIcon style={{ ...styleIcon }} /> בעלי הפרעות קשב וריכוז ADHD  ו ADD</div>
-            <div> <GradeIcon style={{ ...styleIcon }} /> ילדי חינוך מיוחד על הספקטרום</div>
-
+          <Typography component={'span'} variant={'body2'}>
+            <div>
+              בתהליך הלמידה יש התייחסות לקצב הייחודי של הילד/ה, באופן המאפשר להם לרכוש מיומנויות בסיסיות אותן התקשו לרכוש במוסד הלימודים.
+              <br />
+              <br />
+              <span style={{ fontWeight: 'bold' }}>תהליך הלמידה מתחלק לשלושה שלבים</span>
+              <div className='title-and-icon'>
+                <ArrowLeftIcon style={{ ...styleIcon }} />
+                <span style={{ fontWeight: 'bold' }}> שלב ההוראה המתווכת – </span>
+                בו מתווך המורה לתלמיד/ה את התהליכים תוך פיתוח קוגניציה ומטאקוגניציה.
+              </div>
+              <div className='title-and-icon'>
+                <ArrowLeftIcon style={{ ...styleIcon }} />
+                <span style={{ fontWeight: 'bold' }}>
+                  שלב הביניים (כרטיסי הניווט) –
+                </span>
+                בשלב זה התלמיד/ה פועלים ע"י כרטיסי ניווט ובעזרתו של המתווך עד
+                להפנמה מלאה של האסטרטגיה. דרך פעולה זו משמשת לילד/ה קביים המאפשרים להם להתנתק בהמשך מהמורה המתווך בהדרגה ולהפוך ללומדים עצמאיים.
+              </div>
+              <div className='title-and-icon'>
+                <ArrowLeftIcon style={{ ...styleIcon }} />
+                <span style={{ fontWeight: 'bold' }}> שלב העבודה העצמאית – </span>
+                בשלב זה התלמיד/ה הפנימו כבר את אופן הלמידה ויכולים לתפקד באופן עצמאי בעזרת כרטיסי הניווט שברשותם והכלים הנוספים שרכשו.
+              </div>
+              <br />
+              הוראה מתקנת אינה מרפאה את ליקוי הלמידה אלא מסייעת לילד/ה להתקדם ולצמצם פערים ע"י שימוש בערוצים החזקים שלהם או שימוש בדרכים חלופיות.
+              תהליך הלמידה המלווה בכרטיס ניווט אינו פותר את הלומד/ת מלחשוב ולפעול, שכן עליהם לאתר את הבעיה העומדת בפניהם, להגדירה, לחפש את כרטיס הניווט המתאים לפתירתה – ולפתור אותה בהתאם.
+            </div>
           </Typography>
-        </AccordionDetails>
-      </Accordion>
+        </AccordionDetails>      </Accordion>
     </div>
   );
 }

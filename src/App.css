@@ -75,7 +75,9 @@ header {
 .summary-header {
   margin-top: 5px !important;
 }
-
+.summary-header:hover{
+  background-color: #00458be6;
+}
 .row-title-header {
   text-align: right;
   font-size: large;
@@ -129,6 +131,20 @@ header {
     padding-bottom: 20px;
     padding-top: 60px;
   }
+  .text-header-page{
+    margin-top: 20px;
+    display: flex;
+    text-align: right ;
+    flex-direction: column;
+  }
+  .title-header-page{
+    font-size: 42px;
+    line-height: 1.2;
+  }
+  .row-title-header{
+    font-size: 20px;
+    line-height: 0.9;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -142,6 +158,17 @@ header {
   .haeder-img-and-text {
     padding-top: 80px;
   }
+  .text-header-page{
+    width: 50%;
+  }
+  .title-header-page{
+    font-size: 60px;
+    line-height: 1.4;
+  }
+  .row-title-header{
+    font-size: 28px;
+    line-height: 1.2;
+  }
 }
 
 .bold {
@@ -149,3 +176,12 @@ header {
 }
 
 .title-and-icon {}
+.recommend1{
+  background-image: url('./images/recommend1.jpeg');
+}
+.recommend2{
+  background-image: url('./images/recommend2.jpeg');
+}
+.recommend3{
+  background-image: url('./images/recommend3.jpeg');
+}
