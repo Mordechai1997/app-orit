@@ -10,7 +10,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 
 export default function ControlledAccordionsHeader() {
-  const [expanded, setExpanded] = React.useState('panel1  ');
+  const [expanded, setExpanded] = React.useState('panel1');
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);

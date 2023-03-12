@@ -7,7 +7,9 @@ import Question from "./Question";
 import SlidesComments from "./SlidesComments";
 import Slideshow from './Slideshow';
 import ScrollAnimation from 'react-animate-on-scroll';
-import ParticleAnimation from 'react-particle-animation'
+import ParticleAnimation from 'react-particle-animation';
+import SportsBasketballIcon from '@mui/icons-material/SportsBasketball';
+
 function HomePage() {
 
     const [expandedAboutMe, setExpandedAboutMe] = React.useState(true);
@@ -35,11 +37,21 @@ function HomePage() {
                         textAlign: 'right',
                         margin: '0 0 20px 0'
                     }}
-                        className="title-header-page"> הוראה מתקנת</h2>
-                    <ScrollAnimation  animateIn='bounceInRight'>
-                        <div className="row-title-header bold">  הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים.</div>
-                        <div className="row-title-header bold"> מטרת הוראה זו היא לקדם ולשפר את תפקודו של התלמיד והשיגיו,  בהלימה לתכנית הלימוד הבית ספרית, תוך הקניית חווית למידה חיובית.</div>
-                    </ScrollAnimation>
+                        className="title-header-page">
+                        <main class="wrapper">
+                            ה
+                            <section>
+                                <div class="box">
+                                    <p class="letter bounce"><SportsBasketballIcon  fontSize="small" sx={{ color: '#000' }}/></p>
+                                    <p class="letter">ו</p>
+                                </div>
+                            </section>
+
+                        </main>
+                        ראה מתקנת
+                    </h2>
+                    <div className="row-title-header bold">  הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים.</div>
+                    <div className="row-title-header bold"> מטרת הוראה זו היא לקדם ולשפר את תפקודו של התלמיד והשיגיו,  בהלימה לתכנית הלימוד הבית ספרית, תוך הקניית חווית למידה חיובית.</div>
                 </div>
             </div>
             <div className="question" style={{ margin: '50px auto' }}>

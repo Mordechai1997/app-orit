@@ -185,3 +185,97 @@ header {
 .recommend3{
   background-image: url('./images/recommend3.jpeg');
 }
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display        : flex;
+  justify-content: space-around;
+  align-items    : baseline;
+  display: inline;
+}
+.wrapper>section{
+  display: inline;
+}
+.box {
+  display: inline-block;
+}
+
+.letter {
+  text-align : center;
+  margin     : 0;
+  line-height: 0.55;
+}
+
+@keyframes bounce {
+  from {
+      transform: translate3d(0, 0, 0);
+  }
+
+  to {
+      transform: translate3d(0, -10px, 0);
+  }
+}
+
+.bounce {
+  animation                : bounce 0.9s;
+  animation-iteration-count: infinite;
+  animation-direction      : alternate;
+}
+
+@keyframes color-change {
+  from {
+      color: #ff8a00;
+  }
+
+  to {
+      color: #0075ff;
+  }
+}
+
+.color-change {
+  color    : #ff8a00;
+  animation: color-change 2s infinite alternate;
+}
+
+@keyframes appear {
+  0% {
+      font-size: 0;
+      opacity  : 0;
+  }
+
+  50% {
+      font-size: 4em;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+.appear {
+  animation: appear 3s alternate infinite;
+}
+
+@keyframes rotate {
+  from {
+      opacity  : 0;
+      transform: rotate(60deg)
+  }
+
+  to {
+      transform: rotate(0deg)
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+.rotate {
+  animation: rotate 3s infinite;
+}
