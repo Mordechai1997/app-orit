@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/app-orit/static/css/main.65e6f8db.css",
-    "main.js": "/app-orit/static/js/main.3e3b5d7e.js",
+    "main.css": "/app-orit/static/css/main.f556d7c6.css",
+    "main.js": "/app-orit/static/js/main.9b2ca1d3.js",
     "static/js/787.8489287d.chunk.js": "/app-orit/static/js/787.8489287d.chunk.js",
     "static/media/chailde5.jpeg": "/app-orit/static/media/chailde5.048623aa2eafe9f2e695.jpeg",
     "static/media/chailde3.jpeg": "/app-orit/static/media/chailde3.8e057cc9565db8d30504.jpeg",
@@ -15,12 +15,12 @@
     "static/media/recommend2.jpeg": "/app-orit/static/media/recommend2.cf94e51479bf828a5908.jpeg",
     "static/media/recommend1.jpeg": "/app-orit/static/media/recommend1.b921964e88c23f9fc91a.jpeg",
     "index.html": "/app-orit/index.html",
-    "main.65e6f8db.css.map": "/app-orit/static/css/main.65e6f8db.css.map",
-    "main.3e3b5d7e.js.map": "/app-orit/static/js/main.3e3b5d7e.js.map",
+    "main.f556d7c6.css.map": "/app-orit/static/css/main.f556d7c6.css.map",
+    "main.9b2ca1d3.js.map": "/app-orit/static/js/main.9b2ca1d3.js.map",
     "787.8489287d.chunk.js.map": "/app-orit/static/js/787.8489287d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65e6f8db.css",
-    "static/js/main.3e3b5d7e.js"
+    "static/css/main.f556d7c6.css",
+    "static/js/main.9b2ca1d3.js"
   ]
 }
