@@ -25,9 +25,8 @@ body {
 
 .contact-us>a:hover {
   /* color: #9DC88D; */
-  color: #3FD2C7;
-
-
+  /* color: #3FD2C7; */
+  color: #000;
 }
 
 .haeder-img-and-text {
@@ -47,9 +46,9 @@ header {
   /* position: fixed !important; */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .haeder-img-and-text {
-    height: 300px;
+    height: 380px;
   }
 }
 
@@ -118,7 +117,7 @@ header {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .slide-show {
     width: 90%;
   }
@@ -147,7 +146,7 @@ header {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
   .slide-show {
     width: 50%;
   }

@@ -1,14 +1,10 @@
-import { display } from "@mui/system";
 import React from "react";
 import ControlledAccordions from "./ControlledAccordions";
-import ControlledAccordionsFooter from "./ControlledAccordionsFooter";
 import ControlledAccordionsHeader from "./ControlledAccordionsHeader";
-import Question from "./Question";
 import SlidesComments from "./SlidesComments";
 import Slideshow from './Slideshow';
-import ScrollAnimation from 'react-animate-on-scroll';
-import ParticleAnimation from 'react-particle-animation';
 import SportsBasketballIcon from '@mui/icons-material/SportsBasketball';
+import Footer from "./Footer";
 
 function HomePage() {
 
@@ -42,7 +38,7 @@ function HomePage() {
                             ה
                             <section>
                                 <div class="box">
-                                    <p class="letter bounce"><SportsBasketballIcon  fontSize="small" sx={{ color: '#000' }}/></p>
+                                    <p class="letter bounce"><SportsBasketballIcon fontSize="small" sx={{ color: '#000' }} /></p>
                                     <p class="letter">ו</p>
                                 </div>
                             </section>
@@ -66,6 +62,9 @@ function HomePage() {
             </div>
             <div style={{ width: '90%', margin: '10px auto' }}>
                 <SlidesComments />
+            </div>
+            <div style={{ width: '100%'}}>
+                <Footer />
             </div>
         </div >
     );
