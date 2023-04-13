@@ -13,7 +13,6 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
-  height: '400px',
   borderRadius:'10px',
   margin: '0 5px'
 
@@ -47,6 +46,26 @@ const slideImages = [
     url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
     caption: 'slide-7'
   },
+  {
+    url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
+    caption: 'slide-8'
+  },
+  {
+    url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
+    caption: 'slide-9'
+  },
+  {
+    url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
+    caption: 'slide-10'
+  },
+  {
+    url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
+    caption: 'slide-11'
+  },
+  {
+    url: '../images/5c088ed6-2902-4301-a8bc-68620709b62e3.jpeg',
+    caption: 'slide-12'
+  },
 ];
 
 export default function Slideshow () {
@@ -55,7 +74,7 @@ export default function Slideshow () {
         <Slide >
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div className={slideImage.caption} style={{ ...divStyle}}>
+              <div className={`${slideImage.caption} container-img-slider`} style={{ ...divStyle}}>
               {/* <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}> */}
                 {/* <span style={spanStyle}>{slideImage.caption}</span> */}
               </div>

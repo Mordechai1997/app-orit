@@ -2,7 +2,6 @@ import { Box, Container, Grid, Typography } from "@mui/material";
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 export const Footer = () => {
     return (
@@ -19,13 +18,9 @@ export const Footer = () => {
             <Container maxWidth="lg">
                 <Grid container direction="column" alignItems="center">
                     <Grid item xs={12}>
-                    <ScrollAnimation style={{ margin: 'auto' }} duration={2} animateIn='wobble'
-            initiallyVisible={true}>
                             <Typography color="#fff" variant="h5">
-
-                                לשיחת ייעוץ ללא עלות תיצרו קשר
+                                לשיחת ייעוץ ללא עלות ניתן ליצור קשר
                             </Typography>
-                        </ScrollAnimation>
                     </Grid>
                     <Grid item xs={12}>
                         <Typography color="#fff" variant="subtitle1">

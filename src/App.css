@@ -36,19 +36,31 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   /* background-color:#4D774E ; */
-  background-color: teal;
+  background-color: #ffffffa1;
 
   background-blend-mode: screen;
   /* padding-top: 80px; */
 }
 
-header {
-  /* position: fixed !important; */
+.container-img-slider{
+  height: 500px
+}
+.recommend-box{
+  height: 220px;
 }
 
 @media only screen and (max-width: 700px) {
+  .container-img-slider{
+    height: 400px
+  }
   .haeder-img-and-text {
     height: 380px;
+  }
+  .recommend-box{
+    height: 200px;
+  }
+  .recommend3{
+    height: 270px;
   }
 }
 
@@ -83,40 +95,53 @@ header {
 }
 
 .slide-1 {
-  background-image: url('./images/chailde.jpeg');
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.27.25 PM.jpeg');
 
 }
 
 .slide-2 {
-  background-image: url('./images/chailde1.jpeg');
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.29.02 PM.jpeg');
 
 }
 
 .slide-3 {
-  background-image: url('./images/chailde2.jpeg');
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.28.27 PM.jpeg');
 
 }
 
 .slide-4 {
-  background-image: url('./images/chailde3.jpeg');
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.29.57 PM.jpeg');
 
 }
 
 .slide-5 {
-  background-image: url('./images/chailde4.jpeg');
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.32.46 PM.jpeg');
 
 }
 
 .slide-6 {
-  background-image: url('./images/chailde5.jpeg');
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.33.06 PM.jpeg');
 
 }
 
 .slide-7 {
-  background-image: url('./images/chailde6.jpeg');
-
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.35.07 PM.jpeg');
 }
-
+.slide-8 {
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.41.16 PM.jpeg');
+}
+.slide-9 {
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.41.38 PM.jpeg');
+}
+.slide-10 {
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.43.41 PM.jpeg');
+}
+.slide-11 {
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.45.13 PM.jpeg');
+}
+.slide-12 {
+  background-image: url('./images/WhatsApp Image 2023-04-13 at 6.41.16 PM-2.jpeg');
+}
 @media only screen and (max-width: 700px) {
   .slide-show {
     width: 90%;
