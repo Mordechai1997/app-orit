@@ -31,7 +31,7 @@ function HomePage() {
                 <div style={{ padding: '20px' }} className="text-header-page">
                     <h2 style={{
                         textAlign: 'right',
-                        margin: '0 0 20px 0'
+                        margin: '0 0 15px 0'
                     }}
                         className="title-header-page">
                         <main class="wrapper">
@@ -46,7 +46,7 @@ function HomePage() {
                         </main>
                         ראה מתקנת
                     </h2>
-                    <div className="row-title-header bold">  הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים.</div>
+                    <div className="row-title-header bold" style={{marginBottom:"10px"}}>  הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים.</div>
                     <div className="row-title-header bold"> מטרת הוראה זו היא לקדם ולשפר את תפקודו של התלמיד והשיגיו,  בהלימה לתכנית הלימוד הבית ספרית, תוך הקניית חווית למידה חיובית.</div>
                 </div>
             </div>

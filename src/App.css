@@ -42,24 +42,28 @@ body {
   /* padding-top: 80px; */
 }
 
-.container-img-slider{
+.container-img-slider {
   height: 500px
 }
-.recommend-box{
+
+.recommend-box {
   height: 220px;
 }
 
 @media only screen and (max-width: 700px) {
-  .container-img-slider{
+  .container-img-slider {
     height: 400px
   }
+
   .haeder-img-and-text {
-    height: 380px;
+    height: 420px;
   }
-  .recommend-box{
+
+  .recommend-box {
     height: 200px;
   }
-  .recommend3{
+
+  .recommend3 {
     height: 270px;
   }
 }
@@ -86,9 +90,11 @@ body {
 .summary-header {
   margin-top: 5px !important;
 }
-.summary-header:hover{
+
+.summary-header:hover {
   background-color: #00458be6;
 }
+
 .row-title-header {
   text-align: right;
   font-size: large;
@@ -127,21 +133,27 @@ body {
 .slide-7 {
   background-image: url('./images/WhatsApp Image 2023-04-13 at 6.35.07 PM.jpeg');
 }
+
 .slide-8 {
   background-image: url('./images/WhatsApp Image 2023-04-13 at 6.41.16 PM.jpeg');
 }
+
 .slide-9 {
   background-image: url('./images/WhatsApp Image 2023-04-13 at 6.41.38 PM.jpeg');
 }
+
 .slide-10 {
   background-image: url('./images/WhatsApp Image 2023-04-13 at 6.43.41 PM.jpeg');
 }
+
 .slide-11 {
   background-image: url('./images/WhatsApp Image 2023-04-13 at 6.45.13 PM.jpeg');
 }
+
 .slide-12 {
   background-image: url('./images/WhatsApp Image 2023-04-13 at 6.41.16 PM-2.jpeg');
 }
+
 @media only screen and (max-width: 700px) {
   .slide-show {
     width: 90%;
@@ -155,17 +167,20 @@ body {
     padding-bottom: 20px;
     padding-top: 60px;
   }
-  .text-header-page{
+
+  .text-header-page {
     margin-top: 20px;
     display: flex;
-    text-align: right ;
+    text-align: right;
     flex-direction: column;
   }
-  .title-header-page{
+
+  .title-header-page {
     font-size: 42px;
     line-height: 1.2;
   }
-  .row-title-header{
+
+  .row-title-header {
     font-size: 20px;
     line-height: 1.1;
   }
@@ -179,17 +194,21 @@ body {
   .question {
     width: 70%;
   }
+
   .haeder-img-and-text {
     padding-top: 80px;
   }
-  .text-header-page{
+
+  .text-header-page {
     width: 50%;
   }
-  .title-header-page{
+
+  .title-header-page {
     font-size: 60px;
     line-height: 1.4;
   }
-  .row-title-header{
+
+  .row-title-header {
     font-size: 28px;
     line-height: 1.2;
   }
@@ -200,13 +219,16 @@ body {
 }
 
 .title-and-icon {}
-.recommend1{
+
+.recommend1 {
   background-image: url('./images/recommend1.jpeg');
 }
-.recommend2{
+
+.recommend2 {
   background-image: url('./images/recommend2.jpeg');
 }
-.recommend3{
+
+.recommend3 {
   background-image: url('./images/recommend3.jpeg');
 }
 
@@ -217,67 +239,69 @@ body {
 }
 
 .wrapper {
-  display        : flex;
+  display: flex;
   justify-content: space-around;
-  align-items    : baseline;
+  align-items: baseline;
   display: inline;
 }
-.wrapper>section{
+
+.wrapper>section {
   display: inline;
 }
+
 .box {
   display: inline-block;
 }
 
 .letter {
-  text-align : center;
-  margin     : 0;
+  text-align: center;
+  margin: 0;
   line-height: 0.55;
 }
 
 @keyframes bounce {
   from {
-      transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 
   to {
-      transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
   }
 }
 
 .bounce {
-  animation                : bounce 0.9s;
+  animation: bounce 0.9s;
   animation-iteration-count: infinite;
-  animation-direction      : alternate;
+  animation-direction: alternate;
 }
 
 @keyframes color-change {
   from {
-      color: #ff8a00;
+    color: #ff8a00;
   }
 
   to {
-      color: #0075ff;
+    color: #0075ff;
   }
 }
 
 .color-change {
-  color    : #ff8a00;
+  color: #ff8a00;
   animation: color-change 2s infinite alternate;
 }
 
 @keyframes appear {
   0% {
-      font-size: 0;
-      opacity  : 0;
+    font-size: 0;
+    opacity: 0;
   }
 
   50% {
-      font-size: 4em;
+    font-size: 4em;
   }
 
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -287,16 +311,16 @@ body {
 
 @keyframes rotate {
   from {
-      opacity  : 0;
-      transform: rotate(60deg)
+    opacity: 0;
+    transform: rotate(60deg)
   }
 
   to {
-      transform: rotate(0deg)
+    transform: rotate(0deg)
   }
 
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
