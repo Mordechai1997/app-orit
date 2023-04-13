@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/app-orit/static/css/main.f512942d.css",
-    "main.js": "/app-orit/static/js/main.94220722.js",
+    "main.js": "/app-orit/static/js/main.7cda59fe.js",
     "static/js/787.8489287d.chunk.js": "/app-orit/static/js/787.8489287d.chunk.js",
     "static/media/WhatsApp Image 2023-04-13 at 6.41.16 PM.jpeg": "/app-orit/static/media/WhatsApp Image 2023-04-13 at 6.41.16 PM.57c810a99a643faac1e7.jpeg",
     "static/media/WhatsApp Image 2023-04-13 at 6.45.13 PM.jpeg": "/app-orit/static/media/WhatsApp Image 2023-04-13 at 6.45.13 PM.414abd4215dbc5b3b639.jpeg",
@@ -21,11 +21,11 @@
     "static/media/recommend1.jpeg": "/app-orit/static/media/recommend1.b921964e88c23f9fc91a.jpeg",
     "index.html": "/app-orit/index.html",
     "main.f512942d.css.map": "/app-orit/static/css/main.f512942d.css.map",
-    "main.94220722.js.map": "/app-orit/static/js/main.94220722.js.map",
+    "main.7cda59fe.js.map": "/app-orit/static/js/main.7cda59fe.js.map",
     "787.8489287d.chunk.js.map": "/app-orit/static/js/787.8489287d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f512942d.css",
-    "static/js/main.94220722.js"
+    "static/js/main.7cda59fe.js"
   ]
 }
