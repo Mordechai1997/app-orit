@@ -36,7 +36,7 @@ export default function SlidesComments() {
         <h3>המלצות</h3>
         <ScrollAnimation animateIn='flipInY'
           animateOut='flipOutY'>
-          <MessageIcon fontSize='small' style={{ fill: "black", margin: '8px 5px 0 0 ' }} />
+          <MessageIcon fontSize='small' style={{ fill: "gold", margin: '8px 5px 0 0 ' }} />
         </ScrollAnimation>
       </div>
       {/* </ScrollAnimation> */}

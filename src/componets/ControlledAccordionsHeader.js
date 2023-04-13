@@ -60,17 +60,17 @@ export default function ControlledAccordionsHeader() {
 
         >
           <Typography className='title-accordion' sx={{ width: '100%' }}>
-            מהם תחומי ההתמחות ?
+            מהם תחומי ההתמחות שלי?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ textAlign: 'right' }}>
 
           <Typography>
-            <div> <GradeIcon style={{ ...styleIcon }} /> גיל הרך והכנה לכיתה א'</div>
+            <div> <GradeIcon style={{ ...styleIcon }} /> הכנה לכיתה א'</div>
             <div> <GradeIcon style={{ ...styleIcon }} /> בעלי לקויות למידה</div>
             <div> <GradeIcon style={{ ...styleIcon }} /> בעלי הפרעות קשב וריכוז ADHD  ו ADD</div>
             <div> <GradeIcon style={{ ...styleIcon }} /> ילדי חינוך מיוחד על הספקטרום</div>
-
+            <div> <GradeIcon style={{ ...styleIcon }} /> ילדי כיתות א' עד ו'</div>
           </Typography>
         </AccordionDetails>
       </Accordion>

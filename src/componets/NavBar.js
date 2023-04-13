@@ -24,7 +24,7 @@ function NavBar() {
 
 
     return (
-        <AppBar position="fixed" className='nav-bar' sx={{ backgroundColor: '#00458B'}}>
+        <AppBar position="fixed" className='nav-bar' sx={{ backgroundColor: '#00458B' }}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Typography
@@ -50,13 +50,11 @@ function NavBar() {
                             }}>
                             <Box className="contact-us" sx={{ flex: '1' }}>
                                 <a target="_blank" href="tel:0525466443"> <PhoneIcon sx={{ ml: 2 }} /></a>
-                                <a target="_blank" href="mailto:abc@example.com"> <EmailIcon sx={{ ml: 2 }} /></a>
+                                <a target="_blank" href="mailto:orit741@gmail.com"> <EmailIcon sx={{ ml: 2 }} /></a>
                                 <a target="_blank" href="https://api.whatsapp.com/send?phone=972525466443"> <WhatsAppIcon sx={{ ml: 2 }} /></a>
                             </Box>
                         </Box>
                     </Typography>
-
-
                     <Typography
                         component={'span'} variant={'body2'}
                         noWrap
@@ -70,8 +68,6 @@ function NavBar() {
                             letterSpacing: '.3rem',
                             color: 'inherit',
                             textDecoration: 'none',
-                            fontFamily: 'Mulish'
-
                         }}
                     >
                         <Box
@@ -85,7 +81,7 @@ function NavBar() {
                             <Box className="contact-us" >
                                 <Box className="contact-us" sx={{ flex: '1' }}>
                                     <a target="_blank" href="tel:0525466443"> <PhoneIcon sx={{ ml: 2 }} /></a>
-                                    <a target="_blank" href="mailto:abc@example.com"> <EmailIcon sx={{ ml: 2 }} /></a>
+                                    <a target="_blank" href="mailto:orit741@gmail.com"> <EmailIcon sx={{ ml: 2 }} /></a>
                                     <a target="_blank" href="https://api.whatsapp.com/send?phone=972525466443"> <WhatsAppIcon sx={{ ml: 2 }} /></a>
                                 </Box>
 
@@ -93,9 +89,6 @@ function NavBar() {
                         </Box>
 
                     </Typography>
-
-
-
                 </Toolbar>
             </Container>
         </AppBar>
