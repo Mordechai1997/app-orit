@@ -46,12 +46,13 @@ function HomePage() {
                         </main>
                         ראה מתקנת
                     </h2>
-                    <div className="row-title-header bold" style={{marginBottom:"10px"}}>  הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים.</div>
+                    <div className="row-title-header bold" style={{ marginBottom: "10px" }}>  הוראה המותאמת אישית ע"י איש ההוראה לכל תלמיד ומתייחסת לחוזקותיו וחולשותיו של התלמיד בהיבטים אקדמאיים.</div>
                     <div className="row-title-header bold"> מטרת הוראה זו היא לקדם ולשפר את תפקודו של התלמיד והשיגיו,  בהלימה לתכנית הלימוד הבית ספרית, תוך הקניית חווית למידה חיובית.</div>
                 </div>
             </div>
             <div className="question" style={{ margin: '50px auto' }}>
-                <ControlledAccordionsHeader />
+                <SlidesComments />
+
                 {/* <Question title="קצת עליי" allText={allDes()} expanded={expandedAboutMe} handleChange={handleChangeAboutMe} /> */}
             </div>
             <div className='slide-show' style={{ margin: '50px auto' }}>
@@ -61,9 +62,10 @@ function HomePage() {
                 <ControlledAccordions />
             </div>
             <div style={{ width: '90%', margin: '10px auto' }}>
-                <SlidesComments />
+                <ControlledAccordionsHeader />
+
             </div>
-            <div style={{ width: '100%'}}>
+            <div style={{ width: '100%' }}>
                 <Footer />
             </div>
         </div >
