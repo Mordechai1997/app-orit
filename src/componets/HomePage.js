@@ -51,19 +51,17 @@ function HomePage() {
                 </div>
             </div>
             <div className="question" style={{ margin: '50px auto' }}>
-                <SlidesComments />
-
+                <ControlledAccordionsHeader />
                 {/* <Question title="קצת עליי" allText={allDes()} expanded={expandedAboutMe} handleChange={handleChangeAboutMe} /> */}
             </div>
             <div className='slide-show' style={{ margin: '50px auto' }}>
-                <Slideshow />
+                <SlidesComments />
             </div>
             <div className="question" style={{ margin: '50px auto' }}>
                 <ControlledAccordions />
             </div>
             <div style={{ width: '90%', margin: '10px auto' }}>
-                <ControlledAccordionsHeader />
-
+                <Slideshow />
             </div>
             <div style={{ width: '100%' }}>
                 <Footer />
