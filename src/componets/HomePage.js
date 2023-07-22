@@ -8,23 +8,23 @@ import Footer from "./Footer";
 
 function HomePage() {
 
-    const [expandedAboutMe, setExpandedAboutMe] = React.useState(true);
+    // const [expandedAboutMe, setExpandedAboutMe] = React.useState(true);
 
 
-    const handleChangeAboutMe = (panel) => {
-        setExpandedAboutMe(prev => !prev);
-    };
+    // const handleChangeAboutMe = (panel) => {
+    //     setExpandedAboutMe(prev => !prev);
+    // };
 
-    const allDes = () => {
-        return (<div className="bold">
-            שמי אורית, בעלת תואר Be.d
-            בחינוך לגיל הרך והתמחות בחינוך מיוחד.
-            <br />
-            בעלת נסיון של כעשר שנים במערכת החינוך הפורמאלית והלא פורמלית גם כן.
-            <br />
-            עם אהבה גדולה לילדים, לחינוך ולתהליכי למידה.
-        </div >)
-    }
+    // const allDes = () => {
+    //     return (<div className="bold">
+    //         שמי אורית, בעלת תואר Be.d
+    //         בחינוך לגיל הרך והתמחות בחינוך מיוחד.
+    //         <br />
+    //         בעלת נסיון של כעשר שנים במערכת החינוך הפורמאלית והלא פורמלית גם כן.
+    //         <br />
+    //         עם אהבה גדולה לילדים, לחינוך ולתהליכי למידה.
+    //     </div >)
+    // }
     return (
         <div >
             <div className="haeder-img-and-text">
@@ -34,12 +34,12 @@ function HomePage() {
                         margin: '0 0 15px 0'
                     }}
                         className="title-header-page">
-                        <main class="wrapper">
+                        <main className="wrapper">
                             ה
                             <section>
-                                <div class="box">
-                                    <p class="letter bounce"><SportsBasketballIcon fontSize="small" sx={{ color: '#000' }} /></p>
-                                    <p class="letter">ו</p>
+                                <div className="box">
+                                    <p className="letter bounce"><SportsBasketballIcon fontSize="small" sx={{ color: '#000' }} /></p>
+                                    <p className="letter">ו</p>
                                 </div>
                             </section>
 
@@ -52,7 +52,6 @@ function HomePage() {
             </div>
             <div className="question" style={{ margin: '50px auto' }}>
                 <ControlledAccordionsHeader />
-                {/* <Question title="קצת עליי" allText={allDes()} expanded={expandedAboutMe} handleChange={handleChangeAboutMe} /> */}
             </div>
             <div className='slide-show' style={{ margin: '50px auto' }}>
                 <SlidesComments />
@@ -60,7 +59,7 @@ function HomePage() {
             <div className="question" style={{ margin: '50px auto' }}>
                 <ControlledAccordions />
             </div>
-            <div style={{ width: '90%', margin: '10px auto' }}>
+            <div className="slide-show-images" >
                 <Slideshow />
             </div>
             <div style={{ width: '100%' }}>
